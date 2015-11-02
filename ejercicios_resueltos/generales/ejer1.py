@@ -1,6 +1,10 @@
 from sys import argv
 
 
+#---------------------------
+#      Functions
+#---------------------------
+
 def convertString(string):
   '''
     The convertion order is not random. This order allows that numbers passed as
