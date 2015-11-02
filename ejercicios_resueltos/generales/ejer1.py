@@ -20,13 +20,8 @@ def convertString(string):
       return string
 
 
-def avgNumbers(numbers_array):
-  sum_numbers = 0
-
-  for number in numbers_array:
-    sum_numbers += number
-
-  return sum_numbers / len(numbers_array)
+def avgNumber(numbers_array):
+  return sum(numbers_array) / len(numbers_array)
 
 #---------------------
 #     Main Logic
@@ -44,5 +39,5 @@ for i in range(1, len(argv)): #Avoid the script name
   else:
     numbers.append(parsed)
 
-print(avgNumbers(numbers))
+print(avgNumber(numbers))
 print(', '.join(words))
