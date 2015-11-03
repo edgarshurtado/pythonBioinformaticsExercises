@@ -1,7 +1,9 @@
 '''
-1. Separa la lista ['id_paciente', 'fase1', '37.1', '39.3', '38.1'] en tres variables: id_paciente, fase_ensayo, serie_temperaturas.
+1. Separa la lista ['id_paciente', 'fase1', '37.1', '39.3', '38.1'] en tres 
+variables: id_paciente, fase_ensayo, serie_temperaturas.
 
-2. Convierte los números (que están representados por cadenas de texto) de la serie de temperaturas anterior en números con coma flotante.
+2. Convierte los números (que están representados por cadenas de texto) de la
+serie de temperaturas anterior en números con coma flotante.
 
 3. añade  a la lista de números una nueva temperatura, 37.2.
 
