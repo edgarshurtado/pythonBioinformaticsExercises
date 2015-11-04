@@ -35,5 +35,18 @@ print("Añadir una lista entera", serie_temperaturas)
 #Cantidad de temperaturas
 print("Nº de temperaturas", len(serie_temperaturas))
 
-#Imprimir la lista con comas
+#6 Imprimir la lista con comas
 print(", ".join(map(str,serie_temperaturas)))
+
+#7 Ordena las temperaturas de mayor a menor y viceversa
+serie_temperaturas_ordenada = sorted(serie_temperaturas)
+print("Ordenadas de menor a mayor", serie_temperaturas_ordenada)
+serie_temperaturas_ordenada.reverse()
+print ("Ordenadas de mayor a menor", serie_temperaturas_ordenada) 
+
+#8 Obtén la media de las temperaturas
+print(sum(serie_temperaturas)/len(serie_temperaturas))
+
+#9 Temperatura máxima y mínima
+print("Temperatura máxima", max(serie_temperaturas))
+print("Temperatura minima", min(serie_temperaturas))
