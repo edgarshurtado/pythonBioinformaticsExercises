@@ -1,0 +1,6 @@
+nombre color grado_de_madurez
+big_red rojo 5
+italiano amarillo 3
+valenciano verde 1
+penjar rojo 4
+canario rojo 2
